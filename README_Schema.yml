@@ -39,6 +39,13 @@ required_sections:
       
       For full transparency on how this system works, see the GitHub project: [README Synth GPT →](https://github.com/GPTAlchemist/README-Synth)
 
+visual_requirements:
+  require_emoji_in_headers: true
+  require_badges: true
+  require_visuals: true
+  require_table_of_contents: true
+  allow_custom_html_blocks: true
+  
 validation_rules:
   enforce_order: true
   reject_missing_required: true
