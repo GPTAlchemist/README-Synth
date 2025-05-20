@@ -1,0 +1,47 @@
+# README_Schema.yml
+
+required_sections:
+  - id: title
+    label: Tool Name
+    optional: true
+  - id: summary
+    label: Summary
+    description: "1–2 line max overview of what the tool does"
+    required: true
+  - id: problem
+    label: Problem Statement
+    required: true
+  - id: solution
+    label: Solution Overview
+    required: true
+  - id: features
+    label: Key Features
+    required: true
+  - id: technical
+    label: Technical Highlights
+    required: true
+  - id: results
+    label: Results or Differentiators
+    required: true
+  - id: final_note
+    label: Final Note or Call to Action
+    optional: true
+  - id: disclaimer
+    label: Disclaimer
+    required: true
+    match: |
+      #### Disclaimer
+
+      This README was generated using the [README Synth GPT](https://github.com/GPTAlchemist/README-Synth), a tool designed to convert user-authored documentation, design logic, and development notes into clear, publishable Markdown.
+
+      All ideas, descriptions, and feature logic originated from the creator of this tool.
+      README Synth GPT structured, refined, and formatted the content — but it did not invent the product, its claims, or its language.
+      
+      For full transparency on how this system works, see the GitHub project: [README Synth GPT →](https://github.com/GPTAlchemist/README-Synth)
+
+validation_rules:
+  enforce_order: true
+  reject_missing_required: true
+  placeholder_links_must_be_resolved: true
+  tone_balance_required: true
+  no_generic_language: true
