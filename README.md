@@ -1,118 +1,121 @@
-# 🧬 README Synth GPT  
-![Version](https://img.shields.io/badge/version-1.0-blue) ![License](https://img.shields.io/badge/license-MIT-green)  
-_Built by GPT Alchemist_
+# 🧬 README Synth GPT
 
-![README Synth GPT Banner](link-to-banner-image)
+![Badge](https://img.shields.io/badge/zero%20inference-enforced-blueviolet)
+![Badge](https://img.shields.io/badge/tone%20locked-yes-critical)
+
+<img src="https://user-images.githubusercontent.com/README-Synth-GPT/banner.png" alt="README Synth GPT Banner" width="100%" />
 
 ---
 
 ## 📚 Table of Contents
-
-- ✨ Summary  
-- 🧩 Problem Statement  
-- 🛠️ Solution Overview  
-- 🌟 Key Features  
-- ⚙️ Technical Highlights  
-- 🚀 Results or Differentiators  
-- 🧱 How to Build Your Schema + Tone  
-- 🔧 Final Note  
-
----
-
-## ✨ Summary  
-README Synth GPT turns your raw documentation — notes, specs, or drafts — into clean, structured, publish-ready Markdown. It enforces clarity, keeps your voice intact, and never invents content. Whether you’re building an AI product, dev tool, or creative project, this engine sharpens your message without flattening your tone.
+- [✨ Summary](#-summary)
+- [🧩 Problem Statement](#-problem-statement)
+- [🛠️ Solution Overview](#-solution-overview)
+- [🌟 Key Features](#-key-features)
+- [⚙️ Technical Highlights](#-technical-highlights)
+- [🚀 Results or Differentiators](#-results-or-differentiators)
+- [🧱 How to Build Your Schema + Tone](#-how-to-build-your-schema--tone)
+- [🔧 Final Note](#-final-note)
 
 ---
 
-## 🧩 Problem Statement  
-Documentation gets sidelined. It’s rushed, templated, or skipped — leaving a gap between what you built and how it’s perceived. AI tools try to help but often guess, fluff, or strip your voice.
+## ✨ Summary
 
-This leads to:
+README Synth GPT turns your chaotic, unstructured brain dumps — notes, specs, or just “dude look at this” logic — into clean, schema-locked Markdown that sounds like *you*. It's not a generator. It’s a rhetorical scalpel — sharp, personal, and incapable of fluff.
 
-- ❌ Vague or sterile READMEs  
-- ❌ Your reasoning lost in translation  
-- ❌ Repetitive formatting work  
-- ❌ Unclear use of AI in docs  
-
-You need a fast way to write READMEs that are honest, structured, and undeniably yours.
+This tool was built to bridge the gap between technical genius and explainability without sacrificing tone, structure, or truth. You feed it your messy brilliance; it formats, aligns, and articulates with zero creative interference.
 
 ---
 
-## 🛠️ Solution Overview  
-README Synth GPT blends your creativity with structure. It asks pointed questions to capture your why and how, then shapes a README using a rigid schema and your actual words. No filler, no guesswork.
+## 🧩 Problem Statement
 
-### It brings:
+Documentation is where creativity goes to die. Either it's:
 
-- ✅ Locked-down structure  
-- ✅ Context extraction through smart prompts  
-- ✅ Tone parsing from your past writing  
-- ✅ Transparent output process  
-- ✅ A zero-inference policy — you write, it formats  
+- 📎 Sterilized by templates
+- 🤖 Bastardized by AI “help” that can't think like you
+- 🔁 Redundant from copying other READMEs
+- 🚫 Skipped entirely because formatting Markdown sucks
 
-This isn’t a generator — it’s a multiplier for clarity at scale.
+If you’re running at max capacity trying to validate your build with leadership, sales, or your own sanity, the last thing you want is to pause and make a README that sounds like LinkedIn wrote it. Traditional tools erase your nuance. This one hardcodes it.
+
+---
+
+## 🛠️ Solution Overview
+
+README Synth GPT uses:
+
+- Your tone (3 sample files)
+- Your logic (instruction dump)
+- A locked schema (README_Schema.yml)
+
+It then forces Markdown to respect both. There is no AI-generated puffery, no placeholder lorem ipsum, and no guessing your intent. This is scaffolding with teeth.
+
+You answer six pointed questions. It chews through your files. Then — in one shot — you get a README that mirrors your rhetorical structure and actual technical logic.
 
 ---
 
 ## 🌟 Key Features
 
-- 🔄 **Schema-Locked Output** – Enforces consistent sections for easy reuse  
-- 🧠 **Context-Driven Synthesis** – Prompts your real reasoning  
-- 🗣️ **Tone Adaptation** – Mirrors your rhetorical style  
-- 🔍 **Transparent AI Use** – Shows how the README was made  
-- ⚙️ **Zero-Inference Guarantee** – Your words, not AI guesses  
+- 🔒 **Schema-Locked Output** – Format that never freelances
+- 🧠 **Context-Driven Prompts** – Captures your why and how
+- 🗣️ **Tone Mapping** – Reads your past work and syncs sentence flow, sarcasm, cadence
+- 📢 **Transparent AI Use** – Shows exactly how the README was synthesized
+- 🛑 **Zero-Inference Guarantee** – What you don’t say doesn’t show up
 
 ---
 
 ## ⚙️ Technical Highlights
 
-- 📝 Reads instruction and tone files to map structure and style  
-- 🔗 Chains prompts with schema logic to ensure completeness  
-- 🚫 Rejects weak or vague inputs  
-- 📈 Scales across multiple projects or teams  
-- 🌐 Built for GitHub, internal tools, learning platforms, and creative logs  
+- 📥 Ingests tone and instruction files with enforced schema
+- 🔁 Chains prompt stages with role-split logic (capture → structure → validate)
+- 🚫 Fails loud on vagueness, placeholders, or AI voice drift
+- 🧪 Slices input into logical and rhetorical layers (tone vector + content vector)
+- 🧩 Enforces order, badges, visuals, and HTML blocks per YAML contract
+- 🔐 Optional fallbacks include hallucination guards and confidence degraders
 
 ---
 
 ## 🚀 Results or Differentiators
 
-README Synth GPT has overhauled how project documentation gets done — fast, consistent, personal. The creator used it to scale out a portfolio where every README feels like a mini-manifesto: clear, confident, and unique.
+This is not a README tool. It’s an articulation multiplier.
 
-Why it stands out:
+- 🧱 Makes every README a mini-manifesto
+- 🪞 Reflects your internal voice — not a sanitized “summary”
+- ⚡ Renders structure at speed, not at the expense of soul
+- 📣 Exposes what LLMs *can* clarify, instead of what they fabricate
+- 🔁 Scales with portfolios where tone *must* stay constant
 
-- 🧱 Captures both process and purpose  
-- ⚡ Supports high-volume output with no loss of voice  
-- 🪞 Amplifies your tone instead of masking it  
-- 📣 Shows what AI can clarify — not create  
-
-Each README becomes more than a doc. It’s a signal: this work has thought behind it.
+You’re not “documenting” your work. You’re validating it — in your own words, under your own banner.
 
 ---
 
 ## 🧱 How to Build Your Schema + Tone
 
-Getting your personal tone into the system is easy — and powerful. You don’t need polished prose or a fancy corpus. Just gather three writing samples that sound like *you*. Ideally, each should be different in context or format:
+1. **Instruction Set**  
+   Write your demands. Be rude. Tell the README what it owes you.
 
-Here’s what worked for me:
+2. **Tone Samples (3 Required)**  
+   - 📄 A polished doc or write-up  
+   - 🧵 A long, messy prompt chain or stream-of-thought spec  
+   - 📬 A blunt, no-bull email or memo
 
-- 🎓 A college-level paper (analytical, structured)  
-- 💼 A few formal emails I had archived (direct, professional)  
-- 🤖 A long chain of GPT prompts I’d stitched together while exploring an idea (raw, informal, exploratory)  
+   These cover phrasing, structure, and logic density.
 
-This range gave the system more than enough to pattern-match my natural syntax, rhythm, and style decisions.
+3. **Run the Engine**  
+   Drop files. Answer 6 questions. Walk away.
 
-### Now you do it:
+4. **Refine**  
+   If the README misses, swap tone samples. Don’t rewrite the README — rewrite the source of truth.
 
-1. **Instruction Set** → Write your own logic file explaining what you want from the README. Be blunt. Say what you expect.
-2. **Tone Samples** → Drop in three text files of your own writing. They can be messy. It’s the patterns that matter.
-3. **Run It** → Feed both into the tool. It will synthesize the rhetorical structure and match your tone for future outputs.
-4. **Refine** → If something feels off, edit the schema or swap out one of your samples.
-
-You are the source of truth. The more your input reflects your real voice, the better the outputs will resonate.
+💡Tip: Range matters more than polish. Show how you *actually* write when you're mid-build, mid-rant, or mid-memo. The uglier it is, the sharper the synthesis.
 
 ---
 
 ## 🔧 Final Note
 
-This tool wasn’t made to generate fluff. It was built because the gap between building and explaining is real — and costly. Your work deserves to be documented with the same care that went into making it.
+This isn’t for everyone. It’s for the overworked innovator, the logic-sick builder, the person who writes code with a thesaurus and rewrites their architecture docs mid-rage.
 
-Own the process. Upload your tone. Rewrite the schema. Make the output sound like you. README Synth GPT isn’t just a doc tool — it’s part of the workflow now.
+If your brain sounds like a YAML file crashed into a thesis draft, this tool was built for you.
+
+Use it. Abuse it. Break it with edge cases. Because the world doesn’t need another templated README — it needs *yours*.
+
